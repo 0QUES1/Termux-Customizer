@@ -1,15 +1,15 @@
 #!/bin/bash
 
-echo -e "\033[1;31m▓▒░ Restoring Defaults ░▒▓\033[0m"
+echo -e "\033[1;31m▓▒░ Uninstalling Customizations ░▒▓\033[0m"
 
-# Remove custom files
+# Remove all custom files
 rm -f ~/.termux/font.ttf \
       ~/.startup.mp3 \
+      ~/.home_art \
       ~/.termux_prompt \
-      commands.log
+      config.cfg
 
-# Reset config
-echo "# Termux Configuration" > config.cfg
-
+# Reset Termux
 termux-reload-settings
+
 echo -e "\033[1;32m✓ All customizations removed!\033[0m"

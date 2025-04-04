@@ -1,0 +1,16 @@
+termux-customizer/
+├── setup.sh
+├── apply.sh
+├── backup_restore.sh
+├── login.sh
+├── config.cfg
+├── fonts/
+│   ├── default/
+│   │   ├── Cascadia.ttf
+│   │   ├── FiraCode.ttf
+│   │   └── 10+ other fonts...
+│   └── custom/
+├── sounds/
+│   ├── default.mp3
+│   └── custom/
+└── README.md
